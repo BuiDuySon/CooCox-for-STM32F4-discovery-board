@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -D__FPU_USED -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\realtime\cmsis_boot -I..\..\..\workspace\realtime -I..\..\..\workspace\realtime\CoOS -I..\..\..\workspace\realtime\CoOS\portable -I..\..\..\workspace -I..\..\..\workspace\realtime\cmsis_lib -I..\..\..\workspace\realtime\cmsis -I..\..\..\workspace\realtime\cmsis_lib\include -I..\..\..\workspace\realtime\CoOS\kernel">
+      <target file="timer.o" lastModified="149d714327f">
+         <source file="..\..\..\CoOS\kernel\timer.c" lastModified="149cc750c93"/>
+      </target>
+      <target file="mbox.o" lastModified="149d71433aa">
+         <source file="..\..\..\CoOS\kernel\mbox.c" lastModified="149cc750c93"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="149d03a9fde">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="149d03927ce"/>
+      </target>
+      <target file="event.o" lastModified="149d714348b">
+         <source file="..\..\..\CoOS\kernel\event.c" lastModified="149cc750c89"/>
+      </target>
+      <target file="mutex.o" lastModified="149d7143554">
+         <source file="..\..\..\CoOS\kernel\mutex.c" lastModified="149cc750c93"/>
+      </target>
+      <target file="hook.o" lastModified="149d7143661">
+         <source file="..\..\..\CoOS\kernel\hook.c" lastModified="149cc750c93"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="149d03a9d54">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="149d03927e2"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="149d03aa02e">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="149d03927e2"/>
+      </target>
+      <target file="serviceReq.o" lastModified="149d7143364">
+         <source file="..\..\..\CoOS\kernel\serviceReq.c" lastModified="149cc750c93"/>
+      </target>
+      <target file="time.o" lastModified="149d714343b">
+         <source file="..\..\..\CoOS\kernel\time.c" lastModified="149cc750c93"/>
+      </target>
+      <target file="queue.o" lastModified="149d714350e">
+         <source file="..\..\..\CoOS\kernel\queue.c" lastModified="149cc750c93"/>
+      </target>
+      <target file="kernelHeap.o" lastModified="149d71431e3">
+         <source file="..\..\..\CoOS\kernel\kernelHeap.c" lastModified="149cc750c93"/>
+      </target>
+      <target file="sem.o" lastModified="149d7143625">
+         <source file="..\..\..\CoOS\kernel\sem.c" lastModified="149cc750c93"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="149d03a9e6c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="149d039280a"/>
+      </target>
+      <target file="port.o" lastModified="149d71434c5">
+         <source file="..\..\..\CoOS\portable\GCC\port.c" lastModified="149cc750c9d"/>
+      </target>
+      <target file="task.o" lastModified="149d714331e">
+         <source file="..\..\..\CoOS\kernel\task.c" lastModified="149cc750c93"/>
+      </target>
+      <target file="core.o" lastModified="149d7143229">
+         <source file="..\..\..\CoOS\kernel\core.c" lastModified="149cc750c89"/>
+      </target>
+      <target file="arch.o" lastModified="149d71435e9">
+         <source file="..\..\..\CoOS\portable\arch.c" lastModified="149cc750c9d"/>
+      </target>
+      <target file="mm.o" lastModified="149d71433f5">
+         <source file="..\..\..\CoOS\kernel\mm.c" lastModified="149cc750c93"/>
+      </target>
+      <target file="flag.o" lastModified="149d71435ae">
+         <source file="..\..\..\CoOS\kernel\flag.c" lastModified="149cc750c89"/>
+      </target>
+      <target file="utility.o" lastModified="149d71432c4">
+         <source file="..\..\..\CoOS\kernel\utility.c" lastModified="149cc750c93"/>
+      </target>
+      <target file="main.o" lastModified="149d7152b71">
+         <source file="..\..\..\main.c" lastModified="149d715114c"/>
+      </target>
+   </processor>
+</history>
